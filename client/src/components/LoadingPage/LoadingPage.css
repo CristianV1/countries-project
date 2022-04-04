@@ -1,0 +1,10 @@
+.loadingBackground {
+  background-color: #003c5a;
+  width: 100vw;
+  height: 100vh;
+}
+
+.loadingBackground img {
+  width: 400px;
+  padding-top: 150px;
+}

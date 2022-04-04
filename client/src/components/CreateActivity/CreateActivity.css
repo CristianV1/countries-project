@@ -1,0 +1,250 @@
+.activity__background {
+  background-color: rgb(182, 66, 147);
+  min-height: 100vh;
+}
+
+.activity__holder {
+  width: 70%;
+  max-width: 700px;
+  position: relative;
+  top: 80px;
+  background-color: #fff;
+  border-radius: 20px;
+  margin: 0 auto;
+  box-shadow: 5px 5px 0 0 rgb(241, 131, 208);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.activity__title {
+  font-size: 28px;
+  font-weight: 400;
+  color: rgb(199, 47, 153);
+  padding: 15px 0;
+}
+
+.label__activity-name,
+.label__activity-season,
+.label__activity-duration,
+.label__activity-dificulty {
+  width: 50%;
+  display: inline-block;
+  font-size: 22px;
+  font-weight: 400;
+  color: rgb(199, 47, 153);
+}
+
+.input__activity-name,
+.input__activity-dificulty,
+.input__activity-duration,
+.input__activity-season {
+  width: 85%;
+  height: 35px;
+  font-weight: 300;
+  color: rgb(199, 47, 153);
+  font-size: 24px;
+  border: 2px solid rgb(199, 47, 153);
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  text-align: center;
+}
+
+.input__activity-name:focus,
+.input__activity-dificulty:focus,
+.input__activity-duration:focus,
+.input__activity-season:focus {
+  background-color: rgb(224, 31, 166);
+  color: #fff;
+  border: 1px solid #fff;
+  outline: 2px solid rgb(199, 47, 153);
+}
+.input__activity-name:hover,
+.input__activity-dificulty:hover,
+.input__activity-duration:hover,
+.input__activity-season:hover {
+  background-color: rgb(233, 37, 174);
+  color: #fff;
+}
+.input__activity-name::placeholder {
+  color: #fff;
+}
+
+.input__activity-season option {
+  background-color: rgba(187, 79, 155, 0);
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.input__activity-season::selection {
+  background-color: rgb(9, 145, 236);
+}
+
+.activity-season__holder,
+.activity-name__holder,
+.activity-dificulty__holder,
+.activity-duration__holder {
+  width: 50%;
+  display: inline-block;
+}
+
+.input__countries-select {
+  width: 93%;
+  margin: 20px auto;
+  border: 1px solid rgb(199, 47, 153);
+  border: none;
+  font-size: 20px;
+  outline: none;
+  color: rgb(199, 47, 153);
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.input__countries-select::placeholder {
+  outline: none;
+  border: none;
+  color: rgb(199, 47, 153);
+}
+
+/*nombre raro del select*/
+.css-1s2u09g-control {
+  border: none !important;
+  border-radius: 20px !important;
+  border: 1px solid rgb(199, 47, 153) !important;
+  color: rgb(199, 47, 153) !important;
+  font-size: 20px;
+  -webkit-border-radius: 20px !important;
+  -moz-border-radius: 20px !important;
+  -ms-border-radius: 20px !important;
+  -o-border-radius: 20px !important;
+}
+
+.css-1pahdxg-control {
+  border: 1px solid rgb(145, 21, 107) !important;
+  box-shadow: 0 0 0 1px rgb(145, 21, 107) !important;
+}
+
+.css-1pahdxg-control:hover {
+  box-shadow: 0 0 0 1px rgb(145, 21, 107) !important;
+}
+
+.submit__message {
+  font-size: 22px;
+
+  color: rgb(233, 37, 174);
+  width: 100%;
+  text-align: center;
+  height: 30px;
+}
+
+.submit__btn {
+  cursor: pointer;
+  position: relative;
+  width: 200px;
+  height: 40px;
+  top: 20px;
+  font-size: 18px;
+  color: #fff;
+  box-shadow: 1px 4px 0 0 rgb(241, 131, 208);
+  border-radius: 20px;
+  background-color: rgb(233, 37, 174);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  transition: 0.2s filter, 0.2s transform;
+  -webkit-transition: 0.2s filter, 0.2s transform;
+  -moz-transition: 0.2s filter, 0.2s transform;
+  -ms-transition: 0.2s filter, 0.2s transform;
+  -o-transition: 0.2s filter, 0.2s transform;
+}
+
+.submit__btn:hover {
+  transform: scale(1.02);
+  filter: contrast(110%);
+  -webkit-filter: contrast(110%);
+  -webkit-transform: scale(1.02);
+  -moz-transform: scale(1.02);
+  -ms-transform: scale(1.02);
+  -o-transform: scale(1.02);
+}
+
+.homeBtn2 {
+  width: 60px;
+  height: 60px;
+  background-color: rgb(199, 47, 153);
+  cursor: pointer;
+  box-shadow: 4px 4px 0 0 rgb(165, 29, 124);
+  z-index: 5;
+  color: #fff;
+  position: absolute;
+  top: -20px;
+  left: -30px;
+  font-size: 40px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  transition: 0.2s background, 0.2s box-shadow;
+  -webkit-transition: 0.2s background, 0.2s box-shadow;
+  -moz-transition: 0.2s background, 0.2s box-shadow;
+  -ms-transition: 0.2s background, 0.2s box-shadow;
+  -o-transition: 0.2s background, 0.2s box-shadow;
+}
+
+.homeBtn2::after {
+  content: "";
+  position: absolute;
+  background-color: #fff;
+  left: 15px;
+  top: 10px;
+  width: 40px;
+  height: 40px;
+  clip-path: polygon(52% 0, 0 56%, 53% 100%);
+}
+
+.homeBtn2:hover {
+  background-color: rgb(212, 55, 165);
+  cursor: pointer;
+  box-shadow: 4px 4px 0 0 rgb(187, 56, 148);
+}
+
+.removeSelectedCountry {
+  margin: 10px;
+  padding: 5px 10px;
+  font-size: 17px;
+  background-color: #fff;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  transition: 0.2s color, 0.2s background-color, 0.2s transform;
+  -webkit-transition: 0.2s color, 0.2s background-color, 0.2s transform;
+  -moz-transition: 0.2s color, 0.2s background-color, 0.2s transform;
+  -ms-transition: 0.2s color, 0.2s background-color, 0.2s transform;
+  -o-transition: 0.2s color, 0.2s background-color, 0.2s transform;
+}
+
+.removeSelectedCountry:hover {
+  margin: 10px;
+  font-size: 17px;
+  color: #fff;
+  transform: scale(1.05);
+  background-color: rgb(218, 32, 32);
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -o-transform: scale(1.05);
+}

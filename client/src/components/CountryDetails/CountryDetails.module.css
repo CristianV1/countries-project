@@ -1,0 +1,319 @@
+.background {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #334444;
+  background-color: #c5384f;
+}
+
+.card__holder {
+  width: 100%;
+  border-radius: 30px;
+  background-color: #fff;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  border: 6px solid #cd3232;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 4px 4px 2px 2px #a02020;
+}
+.card__holder2 {
+  padding-top: 50px;
+  width: 65%;
+  max-width: 700px;
+  min-height: 500px;
+  margin: 0 auto;
+  position: relative;
+}
+.card__inner_size {
+  width: 80%;
+  position: relative;
+  z-index: 5;
+  transform: translate(14%, 0);
+  -webkit-transform: translate(14%, 0);
+  -moz-transform: translate(14%, 0);
+  -ms-transform: translate(14%, 0);
+  -o-transform: translate(14%, 0);
+}
+
+.country__name,
+.country__continent,
+.country__id {
+  font-size: 23px;
+  color: #e01d1d;
+  font-weight: 600;
+  padding: 10px 2px;
+  display: inline;
+}
+
+.name_and_id__holder {
+  display: inline-block;
+  width: 50%;
+  padding: 10px 0;
+  text-align: left;
+}
+
+.continent__holder {
+  text-align: right;
+  display: inline-block;
+  width: 50%;
+  padding: 10px 0;
+}
+
+.img__holder {
+  position: relative;
+  z-index: 10;
+  max-width: 100%;
+  height: 250px;
+  border-radius: 10px;
+  border: 2px solid #541c1c;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.country__img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+.description__holder {
+  position: relative;
+  width: 100%;
+  background-color: #cd3232;
+  padding: 12px 0;
+  text-align: left;
+}
+
+.card__description_effect {
+  height: 80%;
+  top: 150px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  z-index: 0;
+  width: 100%;
+  position: absolute;
+  background-color: #cd3232;
+}
+
+.description__text {
+  color: #fff;
+  word-wrap: break-word;
+  padding: 0;
+
+  font-weight: 300;
+  display: inline;
+  font-size: 25px;
+}
+
+.area__text {
+  font-weight: 500;
+  vertical-align: top;
+  padding-right: 220px;
+}
+
+.population__text {
+  font-weight: 500;
+  vertical-align: top;
+  padding-right: 161px;
+}
+.subregion__text {
+  font-weight: 500;
+  vertical-align: top;
+  padding-right: 167px;
+}
+
+.activity__text {
+  font-weight: 500;
+  vertical-align: top;
+  padding-right: 93px;
+}
+
+.value__area,
+.value__population,
+.value__subregion,
+.activities__holder {
+  max-width: 40%;
+  display: inline-block;
+}
+
+.homeBtn {
+  width: 60px;
+  height: 60px;
+  background-color: #cd3232;
+  cursor: pointer;
+  box-shadow: 4px 4px 0 0 #aa263c;
+  z-index: 5;
+  color: #fff;
+  position: absolute;
+  top: 30px;
+  left: -30px;
+  font-size: 40px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  transition: 0.2s background, 0.2s box-shadow;
+  -webkit-transition: 0.2s background, 0.2s box-shadow;
+  -moz-transition: 0.2s background, 0.2s box-shadow;
+  -ms-transition: 0.2s background, 0.2s box-shadow;
+  -o-transition: 0.2s background, 0.2s box-shadow;
+}
+
+.homeBtn::after {
+  content: "";
+  position: absolute;
+  background-color: #fff;
+  left: 15px;
+  top: 10px;
+  width: 40px;
+  height: 40px;
+  clip-path: polygon(52% 0, 0 56%, 53% 100%);
+}
+
+.homeBtn:hover {
+  background-color: #e74545;
+  cursor: pointer;
+  box-shadow: 4px 4px 0 0 #c5384f;
+}
+
+@media (max-width: 860px) {
+  .card__holder {
+    width: 90%;
+  }
+  .name-and-id__holder {
+    display: inline-block;
+    width: 50%;
+    padding: 10px 0;
+    text-align: left;
+  }
+
+  .continent__holder {
+    text-align: right;
+    display: inline-block;
+    width: 50%;
+    padding: 10px 0;
+  }
+
+  .name-and-id__holder * {
+    padding: 0;
+  }
+
+  .continent__holder * {
+  }
+
+  .description__text {
+  }
+
+  .area__text {
+    font-weight: 500;
+    vertical-align: top;
+    padding-right: 160px;
+  }
+
+  .population__text {
+    font-weight: 500;
+    vertical-align: top;
+    padding-right: 111px;
+  }
+  .subregion__text {
+    font-weight: 500;
+    vertical-align: top;
+    padding-right: 120px;
+  }
+
+  .activity__text {
+    font-weight: 500;
+    vertical-align: top;
+    padding-right: 60px;
+  }
+
+  .value__area,
+  .value__population,
+  .value__subregion,
+  .activities__holder {
+    max-width: 40%;
+    min-width: 30%;
+    display: inline-block;
+  }
+
+  .card__holder2 {
+    width: 85%;
+  }
+}
+@media (max-width: 460px) {
+  .country__name,
+  .country__continent,
+  .country__id {
+    font-size: 19px;
+    padding: 10px 0px;
+    display: inline;
+  }
+
+  .value__area,
+  .value__population,
+  .value__subregion,
+  .activities__holder {
+    font-size: 18px;
+    display: inline-block;
+  }
+
+  .description__holder {
+    text-align: center;
+  }
+
+  .name-and-id__holder {
+    display: inline-block;
+    width: 50%;
+    padding: 10px 0;
+    text-align: left;
+  }
+
+  .continent__holder {
+    text-align: center;
+    display: inline-block;
+    width: 50%;
+    padding: 10px 0;
+  }
+
+  .area__text {
+    font-weight: 500;
+    font-size: 20px;
+    display: block;
+    padding: 0;
+  }
+
+  .population__text {
+    font-size: 20px;
+    font-weight: 500;
+    display: block;
+    padding: 0;
+  }
+  .subregion__text {
+    font-size: 20px;
+    font-weight: 500;
+    display: block;
+    padding: 0;
+  }
+
+  .activity__text {
+    font-size: 20px;
+    font-weight: 500;
+    display: block;
+    padding: 0;
+  }
+
+  .card__holder2 {
+    width: 95%;
+    max-width: 700px;
+    min-height: 500px;
+    margin: 0 auto;
+    position: relative;
+  }
+}
